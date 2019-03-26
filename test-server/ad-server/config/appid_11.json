@@ -1,0 +1,4 @@
+{
+  "load_ad_timeout_milliseconds": 25000,
+  "max_requests_per_second": 1
+}

@@ -1,0 +1,9 @@
+{
+  "external_sdk_init_timeout_milliseconds": 5000,
+  "mediated_ad_sources": [
+    {
+      "custom_event_class": "com.vrtcal.sdk.customevent.AdMobCustomEvent",
+      "custom_event_data": "{\"appId\":\"ca-app-pub-3940256099942544~3347511713\",\"adUnitId\":\"ca-app-pub-3940256099942544/6300978111\",\"adSize\":\"BANNER\"}"
+    }
+  ]
+}

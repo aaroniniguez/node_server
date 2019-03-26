@@ -1,0 +1,39 @@
+{
+  "load_ad_timeout_milliseconds": 10000,
+  "show_ad_timeout_milliseconds": 5000,
+  "fetch_ad_timeout_milliseconds": 2000,
+  "load_custom_event_timeout_milliseconds": 6000,
+  "debug": true,
+  "max_requests_per_second": 2,
+  "external_sdk_init_timeout_milliseconds": 2000,
+  "mediated_ad_sources": [
+    {
+      "custom_event_class": "com.vrtcal.sdk.customevent.VungleCustomEvent",
+      "custom_event_data": "{\"appId\":\"5ae0db55e2d43668c97bd65e\",\"placement\":\"DYNAMIC_TEMPLATE_INTERSTITIAL-6969365\"}"
+    },
+    {
+      "custom_event_class": "com.vrtcal.sdk.customevent.AdMobCustomEvent",
+      "custom_event_data": "{\"appId\":\"ca-app-pub-3940256099942544~3347511713\",\"adUnitId\":\"ca-app-pub-3940256099942544/6300978111\",\"adSize\":\"BANNER\"}"
+    },
+    {
+      "custom_event_class": "com.vrtcal.sdk.customevent.AdMobCustomEvent",
+      "custom_event_data": "{\"appId\":\"ca-app-pub-3940256099942544~3347511713\",\"adUnitId\":\"ca-app-pub-3940256099942544/1033173712\"}"
+    },
+    {
+      "custom_event_class": "com.vrtcal.sdk.customevent.FacebookCustomEvent",
+      "custom_event_data": "{\"placementId\":\"YOUR_PLACEMENT_ID\",\"adSize\":\"BANNER_HEIGHT_50\"}"
+    },
+    {
+      "custom_event_class": "com.vrtcal.sdk.customevent.FacebookCustomEvent",
+      "custom_event_data": "{\"placementId\":\"YOUR_PLACEMENT_ID\"}"
+    },
+    {
+      "custom_event_class": "com.vrtcal.sdk.customevent.MoPubCustomEvent",
+      "custom_event_data": "{\"adUnitId\":\"b2fc14304ad64922b27de5d2677ac790\"}"
+    },
+    {
+      "custom_event_class": "com.vrtcal.sdk.customevent.MoPubCustomEvent",
+      "custom_event_data": "{\"adUnitId\":\"62db9cefc0bc456186373fc184fa259c\"}"
+    }
+  ]
+}

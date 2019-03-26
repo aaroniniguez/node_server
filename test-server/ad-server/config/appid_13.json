@@ -1,0 +1,10 @@
+{
+  "load_ad_timeout_milliseconds": 10000,
+  "show_ad_timeout_milliseconds": 5000,
+  "fetch_ad_timeout_milliseconds": 3000,
+  "load_custom_event_timeout_milliseconds": 6000,
+  "debug": true,
+  "max_requests_per_second": 2,
+  "request_throttle_timeout": 8000,
+  "mediation_sdk_init_timeout_allowance": 3000
+}

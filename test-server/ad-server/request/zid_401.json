@@ -1,0 +1,9 @@
+{
+  "adList": [
+    {
+      "custom_event_class": "com.vrtcal.sdk.customevent.MoPubCustomEvent",
+      "custom_event_data": "{\"adUnitId\":\"62db9cefc0bc456186373fc184fa259c\"}",
+      "banner_ad_refresh_milliseconds":150000
+    }
+  ]
+}

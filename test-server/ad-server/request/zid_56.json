@@ -1,0 +1,13 @@
+{
+  "adList": [
+    {
+      "ad_engine": "vrtcal-inhouse",
+      "zone_type": "display",
+      "omid_enabled": false,
+      "ad_content": "<!DOCTYPE html>\n<html>\n<head>\n <meta name=\"viewport\" content=\"width=device-width, user-scalable=yes\"/>\n</head>\n<body style=\"background-color:#000000; margin:-0.5px; position:fixed; maximum-scale:1.0; user-scalable:no; width:100%; height:100%; initial-scale:1.0\">\n<div width=\"320px\" height=\"50px\">\n <a href=\"http://www.dreamajax.com\" target=\"_blank\">\n <img alt=\"zid_56\" src=\"http://HTTP_HOST/test-server/media/image/320_50.png\" width=\"320px\" height=\"50px\" />\n <img src=\"http://HTTP_HOST/test-server/event/logAdvertiserEvent?zoneid=1&type=IMPRESSION&make=apple&model=iphone&osversion=10.0\" width=\"0px\" height=\"0px\" />\n </a>\n</div>\n</body>\n</html>\n",
+      "ad_width": 320,
+      "ad_height": 50,
+      "banner_ad_refresh_milliseconds":30000
+    }
+  ]
+}

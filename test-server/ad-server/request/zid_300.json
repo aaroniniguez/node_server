@@ -1,0 +1,9 @@
+{
+  "adList": [
+    {
+      "custom_event_class": "com.vrtcal.sdk.customevent.FacebookCustomEvent",
+      "custom_event_data": "{\"placementId\":\"YOUR_PLACEMENT_ID\",\"adSize\":\"BANNER_HEIGHT_50\"}",
+      "banner_ad_refresh_milliseconds":150000
+    }
+  ]
+}

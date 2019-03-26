@@ -1,0 +1,11 @@
+{
+  "adList": [
+    {
+      "ad_engine": "vrtcal-inhouse",
+      "zone_type": "display",
+      "omid_enabled": false,
+      "ad_content": "",
+      "banner_ad_refresh_milliseconds":15000
+    }
+  ]
+}
