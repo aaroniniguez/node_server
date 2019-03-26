@@ -11,3 +11,9 @@ To Install:
 npm install -g nodemon
 npm install express --save
 ```
+
+To Run
+
+```
+./run.command
+```
