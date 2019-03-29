@@ -1,0 +1,23 @@
+[33m[nodemon] 1.18.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+Server is listening on port 8080
+/test.php
+/tweet.php
+{ tweet: '',
+  days: '1',
+  username: 'realDonaldTrump',
+  password: '',
+  hours: '19' }
+{ InvalidInput: Please set Password
+    at validateString (/home/ec2-user/node_server/app.js:127:17)
+    at /home/ec2-user/node_server/app.js:139:2
+    at /home/ec2-user/node_server/app.js:17:25
+    at Layer.handle [as handle_request] (/home/ec2-user/node_server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/node_server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/node_server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/node_server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/node_server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/node_server/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/node_server/node_modules/express/lib/router/index.js:275:10) name: 'InvalidInput' }
