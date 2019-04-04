@@ -7,4 +7,4 @@ DIRECTORY=$(dirname "$0")
 cd "$DIRECTORY"
 
 #Start the node server
-nodemon app.js 2>&1 | tee -a server.log
+nodemon app.js 2>&1
