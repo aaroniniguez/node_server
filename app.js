@@ -9,8 +9,11 @@ var util = require('util');
 var log_file = fs.createWriteStream(__dirname + '/debug.log', {flags : 'w'});
 var log_stdout = process.stdout;
 console.log = function(d){
+		var myTime = new Date();
+		myTime = myTime.toString().split("GMT")[0];
+		log_file.write("====" + myTime + "====\n");
 	   log_file.write(util.format(d) + '\n');
-	   log_stdout.write(util.format(d) + '\n');
+	   //log_stdout.write(util.format(d) + '\n');
 };
 var bodyParser = require('body-parser');
 //for our purposes we use synchronous (blocking) because we are just reasing and writing to cron
