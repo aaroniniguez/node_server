@@ -6,4 +6,4 @@ DIRECTORY=$(dirname "$0")
 cd "$DIRECTORY"
 
 #Start the node server
-nodemon app.js 2>&1
+nohup nodemon app.js &
