@@ -175,11 +175,11 @@ app.post('/tweet.php', asyncHandler(async function(req, res) {
 		throw {name: "InvalidCredentials", message: "Invalid Credentials!"};
 	}
 	else
-		throw new Error(error);	
+		throw error;	
 	});
 	//put tweet into cron
 	execute("sudo crontab -l > mycron");
-	var newCron = `* */${hours} */${days} * * /root/.nvm/versions/node/v10.15.3/bin/node /home/ec2-user/node_server/twit.js "${username}" "${password}" \$'${tweet}'\n`
+	var newCron = `1 */${hours} */${days} * * /root/.nvm/versions/node/v10.15.3/bin/node /home/ec2-user/node_server/twit.js "${username}" "${password}" \$'${tweet}'\n`
 	console.log(newCron);
 	fs.appendFileSync("mycron", newCron);
 	execute("sudo crontab mycron");
